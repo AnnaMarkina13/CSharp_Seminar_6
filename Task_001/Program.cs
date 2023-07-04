@@ -14,7 +14,6 @@ int ReadInt(string message)
 int[] FillArray(int length) 
 {
     var array = new int[length]; 
-    Random rand = new Random();
 
     for (int i = 0; i < array.Length; i++)
     {
